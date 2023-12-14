@@ -1,2 +1,2 @@
 # Playground
-The repository contains example codes created for educational purposes
+The repository contains example codes created for educational purposes.
