@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  employee-backoffice-db:
+    image: employee-backoffice-db
+    ports:
+      - "33061:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: college
+    volumes:
+      - "$PWD/data:/var/lib/mysql"
+    networks:
+      - employee-backoffice-network
+  employee-backoffice-be:
+    image: employee-backoffice-be
+    ports:
+      - "8080:8080"
+    networks:
+      - employee-backoffice-network
+
+networks:
+  employee-backoffice-network:
