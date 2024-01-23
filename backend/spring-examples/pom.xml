@@ -21,6 +21,7 @@
         <module>spring-mvc</module>
         <module>spring-security</module>
         <module>spring-batch</module>
+        <module>spring-kafka</module>
     </modules>
 
     <properties>
