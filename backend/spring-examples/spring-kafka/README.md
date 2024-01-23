@@ -14,6 +14,8 @@ Apache Kafka is an open-source distributed event streaming platform used by thou
 * Event Sourcing
 * Commit Log
 
+[Kafka Intro](https://kafka.apache.org/intro)
+
 ## How to run
 
 ### Install Kafka
